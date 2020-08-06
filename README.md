@@ -1,5 +1,8 @@
 # telegraf.plugins.input.prometheus-server
-A custom plugin to allow gather data directly from the prometheus API
+A custom plugin to allow gather data directly from the prometheus API.
+This plugin is a work in progress, some improvements can be made : 
+- Add real unit tests
+- Use concurrency to make the collection faster
 
 ## How to install and run this plugin
 To install this plugin, you need GO and to download source code of telegraf with GO (check this documentation : https://medium.com/@punitck05/how-to-write-sample-telegraf-plugin-4b674033df97).
